@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V4Consumer Broadband</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="hamburger-menu">&#9776;</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Broadband</a></li>
+          <li><a href="#">Mobile</a></li>
+          <li><a href="#">Pay My Bill</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="welcome-text">Experience High <br> Speed Broadband</div>
+    <div class="form-container">
+      <form id="broadband-form">
+        <div class="input-container">
+          <input type="text" id="postal-code" placeholder="Enter your postal code..."/>
+          <button type="submit" id="submit-button">Go!</button>
+        </div>  
+        <input type="text" id="landline-number" placeholder="Landline Number (Recommended)"/>
+      </form>
+      <p class="para-text">
+        By clicking 'Go!' You're agreeing to consumer reaching out about broadband services. Explore more in our privacy policy."
+      </p>
+    </div>
+    <div class="rating">
+      <div class="rating-new">
+        <span class="light-green-star" style=" color: lightgreen;
+          font-size: 30px; margin-right: 2px;">&#9733;</span> 
+        <span class="trustpilot">Trustpilot</span>
+        <img src="rating.png" alt="image nor available" />
+      </div>
+      <p>Over <span>653 reviewes <span class="trust">|</span> 4.3</span> on Trustpilot</p>
+    </div>
+    <video autoplay muted loop class="background-video">
+      <source src="anime.mp4" type="video/mp4" media="(min-width: 768px)" alt="Your browser does not support the video tag." />
+      <!--for mobile-->
+      <source src="anime.mp4" type="video/mp4" alt="Your browser does not support the video tag." />
+    </video>
+    <script src="script.js"></script>
+  </body>
+</html>
